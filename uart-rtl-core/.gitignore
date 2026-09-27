@@ -1,0 +1,8 @@
+# Icarus Verilog build output
+sim/uart_sim
+*.vvp
+
+# Editor/OS junk
+.vscode/
+*.swp
+.DS_Store

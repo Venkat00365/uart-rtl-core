@@ -1,0 +1,16 @@
+VCD info: dumpfile simulation.vcd opened for output.
+========================================
+        UART SIMULATION
+========================================
+Test 1: Reset                    PASS
+Test 2: Transmit 'A'             PASS  (sent=0x41 received=0x41)
+Test 3: Transmit 'B'             PASS  (sent=0x42 received=0x42)
+Test 4: Transmit 0x00            PASS  (sent=0x00 received=0x00)
+Test 5: Transmit 0xFF            PASS  (sent=0xff received=0xff)
+Test 6: Multi-byte 'H'           PASS  (sent=0x48 received=0x48)
+Test 7: Multi-byte 'I'           PASS  (sent=0x49 received=0x49)
+Test 8: Invalid/edge case        PASS  (busy correctly ignored new tx_start)
+----------------------------------------
+ALL 8 TESTS PASSED
+----------------------------------------
+tb/tb_uart_top.v:172: $finish called at 7245727000 (1ps)
